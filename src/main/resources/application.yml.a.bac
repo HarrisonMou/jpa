@@ -1,0 +1,6 @@
+spring:
+  jpa:
+    database: MYSQL
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+
