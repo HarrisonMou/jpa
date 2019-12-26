@@ -1,6 +1,5 @@
 package com.harrison.jpa;
 
-import org.springframework.amqp.rabbit.annotation.EnableRabbit;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,7 +11,7 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @EnableCaching
-@EnableRabbit
+//@EnableRabbit
 public class JpaApplication {
 
 	public static void main(String[] args) {

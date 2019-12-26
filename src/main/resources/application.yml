@@ -7,11 +7,11 @@ spring:
           show_sql: true
     database: MYSQL
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
   datasource:
-    url: jdbc:mysql:///jpa?autoReconnect=true&useSSL=false&characterEncoding=utf-8
+    url: jdbc:mysql://94.191.63.243:3306/jpa?autoReconnect=true&useSSL=false&characterEncoding=utf-8
     username: root
-    password: 123456
+    password: harrison@onfresh.cn
     driver-class-name: com.mysql.jdbc.Driver
     platform: mysql
     type: com.alibaba.druid.pool.DruidDataSource
